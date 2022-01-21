@@ -24,6 +24,7 @@ body {
 }
 .dWtYLN {
   align-self: center;
+  align-items: center;
 }
 img.x {
   width: 170px;
@@ -288,11 +289,15 @@ a.metamask_content-btn.text-block-btn.discord_m.w-button.mint_btn.nav-link.btn.b
   color: #BF2200; 
   margin-top: 20px; 
   font-size: 20px;
+  align-self: center;
 }
 
 @media screen and (max-width: 400px) {
   .socials {
     visibility: hidden;
+  }
+  .title {
+    font-size: 20px;
   }
 }
 
